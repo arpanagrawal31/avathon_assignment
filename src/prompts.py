@@ -22,3 +22,30 @@ CRITICAL: "owner" and "deadline" values must be EXACT substrings copied from the
 
 EMAIL:
 {email_body}"""
+
+# ── Baseline prompts (for zero-shot / few-shot evaluation) ──
+
+BASELINE_SYSTEM = (
+    "You are an expert email triage analyst for enterprise operations. "
+    "You extract structured information from corporate emails with high precision. "
+    "When a field is genuinely absent from the email, use null — never fabricate. "
+    "Output ONLY valid JSON — no markdown fences, no explanation, no extra text."
+)
+
+BASELINE_PROMPT = """Analyze the following corporate email and extract operational triage information.
+
+Output ONLY a JSON object with exactly these fields:
+- "intent": one of: request, status_update, scheduling, approval_request, escalation, fyi, other
+- "urgency": one of: low, medium, high
+- "requires_response": boolean
+- "action_items": list of {{"owner": string|null, "task": string, "deadline": string|null}}. Use [] if none.
+- "escalation_flag": boolean
+
+RULES:
+- "owner" and "deadline" must be EXACT substrings from the email, or null
+- "task" may be paraphrased
+- If there are no action items, use an empty list []
+- Output ONLY the JSON object, nothing else
+
+EMAIL:
+{email_body}"""
