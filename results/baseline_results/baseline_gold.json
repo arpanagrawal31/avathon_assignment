@@ -1,0 +1,702 @@
+{
+  "metrics": {
+    "total": 50,
+    "schema_valid": 43,
+    "schema_validity_rate": 0.86,
+    "intent_accuracy": 0.2558,
+    "urgency_accuracy": 0.7907,
+    "requires_response_accuracy": 0.7674,
+    "escalation_flag_accuracy": 0.9767,
+    "action_item_count_accuracy": 0.6279,
+    "abstention_recall": 0.88,
+    "abstention_total": 25,
+    "unsupported_span_rate": 0.0,
+    "unsupported_spans": 0,
+    "total_spans": 15
+  },
+  "per_example": [
+    {
+      "orig_idx": 152016,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": false,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 373245,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": false,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 357126,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 139472,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 180810,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 2,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 2,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 132982,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": false,
+      "escalation_match": true,
+      "ai_count_pred": 1,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 1,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 64785,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 391034,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": false,
+      "response_match": false,
+      "escalation_match": false,
+      "ai_count_pred": 1,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 1,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 99448,
+      "schema_valid": false,
+      "error": "Schema validation failed: 1 validation error for TriageOutput\nescalation_flag\n  Field required [type=missing, input_value={'intent': 'request', 'ur...ts', 'deadline': None}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+    },
+    {
+      "orig_idx": 456119,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 55371,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": false,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 255955,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 352816,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": false,
+      "response_match": false,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 384601,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": false,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 1,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 1,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 28965,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 68484,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 57393,
+      "schema_valid": false,
+      "error": "Schema validation failed: 1 validation error for TriageOutput\nescalation_flag\n  Field required [type=missing, input_value={'intent': 'request', 'ur...on', 'deadline': 'NA'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+    },
+    {
+      "orig_idx": 156843,
+      "schema_valid": false,
+      "error": "Schema validation failed: 1 validation error for TriageOutput\nescalation_flag\n  Field required [type=missing, input_value={'intent': 'request', 'ur..., 'deadline': 'today'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+    },
+    {
+      "orig_idx": 172821,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 508053,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": false,
+      "response_match": false,
+      "escalation_match": true,
+      "ai_count_pred": 1,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 1,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 473465,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 2,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 1,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 505505,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": false,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 368952,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 204623,
+      "schema_valid": false,
+      "error": "Schema validation failed: 1 validation error for TriageOutput\nescalation_flag\n  Field required [type=missing, input_value={'intent': 'approval_requ...am', 'deadline': None}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+    },
+    {
+      "orig_idx": 454161,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 288084,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 317935,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 152778,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 2,
+      "ai_count_gold": 2,
+      "grounding": {
+        "total": 2,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 154513,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": false,
+      "response_match": false,
+      "escalation_match": true,
+      "ai_count_pred": 1,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 2,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 451060,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 154623,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 2,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 1,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 98365,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": false,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 1,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 1,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 394099,
+      "schema_valid": false,
+      "error": "Schema validation failed: 1 validation error for TriageOutput\nescalation_flag\n  Field required [type=missing, input_value={'intent': 'approval_requ..., 'deadline': 'today'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+    },
+    {
+      "orig_idx": 326140,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 1,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 2,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 420477,
+      "schema_valid": false,
+      "error": "Schema validation failed: 1 validation error for TriageOutput\nescalation_flag\n  Field required [type=missing, input_value={'intent': 'request', 'ur...ty', 'deadline': None}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+    },
+    {
+      "orig_idx": 123783,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 167040,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 325031,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 61667,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": false,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 2,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 250961,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": false,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 59950,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 10342,
+      "schema_valid": false,
+      "error": "Schema validation failed: 1 validation error for TriageOutput\nescalation_flag\n  Field required [type=missing, input_value={'intent': 'request', 'ur...on', 'deadline': None}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+    },
+    {
+      "orig_idx": 155788,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": true,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 416629,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 298447,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 348372,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": false,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 1,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 222052,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 414414,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 506703,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": false,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "orig_idx": 255637,
+      "schema_valid": true,
+      "error": null,
+      "intent_match": false,
+      "urgency_match": true,
+      "response_match": true,
+      "escalation_match": true,
+      "ai_count_pred": 0,
+      "ai_count_gold": 0,
+      "grounding": {
+        "total": 0,
+        "unsupported": 0
+      }
+    }
+  ],
+  "metadata": {
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  }
+}

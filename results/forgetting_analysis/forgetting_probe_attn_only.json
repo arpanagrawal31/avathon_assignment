@@ -1,0 +1,354 @@
+{
+  "variant": "attn_only",
+  "adapter": "adapter/qlora-r16-attn_only",
+  "base": {
+    "mcq_total": 15,
+    "mcq_correct": 13,
+    "mcq_accuracy": 0.8667,
+    "open_total": 10,
+    "json_bleed_count": 0,
+    "json_bleed_rate": 0.0,
+    "rows": [
+      {
+        "type": "mcq",
+        "prompt": "What is the capital of Japan?\nA) Seoul  B) Tokyo  C) Beijing  D) Bangkok\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Compute 2 + 2 * 3.\nA) 8  B) 12  C) 10  D) 6\nAnswer with just the letter.",
+        "response": "D",
+        "gold": "A",
+        "correct": false
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the chemical symbol for gold?\nA) Gd  B) Au  C) Ag  D) Go\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which of these is a mammal?\nA) Shark  B) Dolphin  C) Salmon  D) Octopus\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who wrote Romeo and Juliet?\nA) Dickens  B) Shakespeare  C) Twain  D) Austen\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which planet is closest to the Sun?\nA) Venus  B) Earth  C) Mercury  D) Mars\nAnswer with just the letter.",
+        "response": "C",
+        "gold": "C",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is 15% of 200?\nA) 15  B) 30  C) 20  D) 300\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the opposite of 'ephemeral'?\nA) fleeting  B) permanent  C) fragile  D) rapid\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which language is primarily spoken in Brazil?\nA) Spanish  B) Portuguese  C) French  D) English\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops Lazzies?\nA) Yes  B) No  C) Cannot tell  D) Only some\nAnswer with just the letter.",
+        "response": "A",
+        "gold": "A",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the largest ocean on Earth?\nA) Atlantic  B) Indian  C) Arctic  D) Pacific\nAnswer with just the letter.",
+        "response": "D",
+        "gold": "D",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the square root of 144?\nA) 11  B) 12  C) 14  D) 16\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which gas do plants primarily absorb from the air?\nA) Oxygen  B) Nitrogen  C) Carbon dioxide  D) Hydrogen\nAnswer with just the letter.",
+        "response": "C",
+        "gold": "C",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "A train travels 60 km in 45 minutes. What is its speed in km/h?\nA) 45  B) 80  C) 60  D) 90\nAnswer with just the letter.",
+        "response": "D",
+        "gold": "B",
+        "correct": false
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the freezing point of water in degrees Celsius?\nA) 0  B) 32  C) 100  D) -10\nAnswer with just the letter.",
+        "response": "A",
+        "gold": "A",
+        "correct": true
+      },
+      {
+        "type": "open",
+        "prompt": "Write a short haiku about autumn.",
+        "response": "Leaves swirl in breeze,\nCool air whispers of change,\nAutumn has arrived.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Summarize the plot of Cinderella in one sentence.",
+        "response": "In the classic fairy tale, Cinderella is an impoverished young woman who attends a royal ball disguised as a servant, where she meets the prince and wins his heart, despite the abuse from her stepmother and stepsisters.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Translate 'Good morning, how are you?' into French.",
+        "response": "\"Bonjour, comment vas-tu?\" is the translation of \"Good morning, how are you?\" in French.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Explain what photosynthesis is to a 10-year-old in two sentences.",
+        "response": "Photosynthesis is like a magic recipe that plants use to make their food using sunlight, water from the soil, and air from the sky. It's how plants turn these things into energy to grow big and strong!",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Write a polite one-sentence reply declining a meeting invitation.",
+        "response": "Thank you for inviting me, but I will be unavailable at that time. May I perhaps join another meeting instead?",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "List three tips for staying focused while studying.",
+        "response": "Certainly! Here are three effective tips for staying focused while studying:\n\n1. **Create a Dedicated Study Space**: Designate a specific area in your home or school where you can study without distractions. Make sure it is clean, well-lit, and free from clutter. This space should be comfortable and conducive to concentration.\n\n2. **Set Clear Goals and Break Tasks into Smaller Steps**: Break down your study material into manageable sections with clear goals. For example, if you need to read a chapter, set a goal to finish the first section within 30 minutes. This helps keep you motivated and prevents feeling overwhelmed.\n\n3. **Use Techniques to Combat Distractibility**: Implement strategies that help you stay on task. For instance, use the Pomodoro Technique, which involves working for 25 minutes followed by a 5-minute break. This method can help maintain focus and prevent burnout. Additionally, consider using apps or tools that block distracting websites during study sessions.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "What is the difference between a virus and bacteria? Answer in two sentences.",
+        "response": "Viruses are much smaller than bacteria and can only replicate inside host cells, while bacteria are single-celled organisms that can live independently and reproduce through cell division.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Give me one interesting fact about octopuses.",
+        "response": "Sure! Here's an interesting fact about octopuses: Octopuses have three hearts and blue blood. Their blood is not blue, but it does contain copper-based hemocyanin instead of iron-based hemoglobin, which gives it a bluish color when dissolved in the plasma.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Compose a one-line motivational quote.",
+        "response": "Believe in yourself, and you shall conquer your fears.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Explain the water cycle in three short steps.",
+        "response": "The water cycle, also known as the hydrological cycle, is a continuous process by which water circulates through the Earth's atmosphere and environment. Here are the three main steps of the water cycle:\n\n1. **Evaporation and Transpiration**: Water from oceans, lakes, rivers, and other bodies of water evaporates into the air as water vapor. Plants also release water vapor into the air through a process called transpiration.\n\n2. **Condensation**: As water vapor rises and cools in the atmosphere, it condenses into tiny droplets, forming clouds. This process occurs when warm water vapor meets cooler atmospheric temperatures.\n\n3. **Precipitation**: When these droplets combine and grow larger, they eventually become too heavy for the air to hold, causing them to fall back to the Earth as precipitation (rain, snow, sleet, or hail). Some of this precipitation may soak into the ground, replenishing groundwater supplies, while some may flow over land as surface runoff, eventually making its way back to oceans, lakes, and rivers, completing the cycle.",
+        "json_bleed": false
+      }
+    ]
+  },
+  "tuned": {
+    "mcq_total": 15,
+    "mcq_correct": 13,
+    "mcq_accuracy": 0.8667,
+    "open_total": 10,
+    "json_bleed_count": 0,
+    "json_bleed_rate": 0.0,
+    "rows": [
+      {
+        "type": "mcq",
+        "prompt": "What is the capital of Japan?\nA) Seoul  B) Tokyo  C) Beijing  D) Bangkok\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Compute 2 + 2 * 3.\nA) 8  B) 12  C) 10  D) 6\nAnswer with just the letter.",
+        "response": "C",
+        "gold": "A",
+        "correct": false
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the chemical symbol for gold?\nA) Gd  B) Au  C) Ag  D) Go\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which of these is a mammal?\nA) Shark  B) Dolphin  C) Salmon  D) Octopus\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who wrote Romeo and Juliet?\nA) Dickens  B) Shakespeare  C) Twain  D) Austen\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which planet is closest to the Sun?\nA) Venus  B) Earth  C) Mercury  D) Mars\nAnswer with just the letter.",
+        "response": "C",
+        "gold": "C",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is 15% of 200?\nA) 15  B) 30  C) 20  D) 300\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the opposite of 'ephemeral'?\nA) fleeting  B) permanent  C) fragile  D) rapid\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which language is primarily spoken in Brazil?\nA) Spanish  B) Portuguese  C) French  D) English\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops Lazzies?\nA) Yes  B) No  C) Cannot tell  D) Only some\nAnswer with just the letter.",
+        "response": "A",
+        "gold": "A",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the largest ocean on Earth?\nA) Atlantic  B) Indian  C) Arctic  D) Pacific\nAnswer with just the letter.",
+        "response": "D",
+        "gold": "D",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the square root of 144?\nA) 11  B) 12  C) 14  D) 16\nAnswer with just the letter.",
+        "response": "B",
+        "gold": "B",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which gas do plants primarily absorb from the air?\nA) Oxygen  B) Nitrogen  C) Carbon dioxide  D) Hydrogen\nAnswer with just the letter.",
+        "response": "C",
+        "gold": "C",
+        "correct": true
+      },
+      {
+        "type": "mcq",
+        "prompt": "A train travels 60 km in 45 minutes. What is its speed in km/h?\nA) 45  B) 80  C) 60  D) 90\nAnswer with just the letter.",
+        "response": "D",
+        "gold": "B",
+        "correct": false
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the freezing point of water in degrees Celsius?\nA) 0  B) 32  C) 100  D) -10\nAnswer with just the letter.",
+        "response": "A",
+        "gold": "A",
+        "correct": true
+      },
+      {
+        "type": "open",
+        "prompt": "Write a short haiku about autumn.",
+        "response": "Leaves whisper slow,\nCrisp air and amber hues,\nAutumn's soft embrace.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Summarize the plot of Cinderella in one sentence.",
+        "response": "In the classic fairy tale, Cinderella is an impoverished young woman who attends a royal ball disguised as a servant, where she catches the eye of the prince and ultimately wins his love and affection, leading to her eventual happiness and marriage to the prince.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Translate 'Good morning, how are you?' into French.",
+        "response": "\"Bonjour, comment vas-tu?\"",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Explain what photosynthesis is to a 10-year-old in two sentences.",
+        "response": "Photosynthesis is like a magic recipe that plants use to make their food using sunlight, water, and air. It's how plants turn the sun's energy into energy they can use to grow big and strong!",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Write a polite one-sentence reply declining a meeting invitation.",
+        "response": "Thank you for inviting me, but I will be unavailable at that time. May I perhaps join another meeting instead?",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "List three tips for staying focused while studying.",
+        "response": "Certainly! Here are three effective tips for staying focused while studying:\n\n1. **Create a Structured Study Schedule**: Break your study sessions into smaller, manageable chunks with clear goals and deadlines. This helps you stay on track and reduces the feeling of being overwhelmed. Make sure to include breaks in between study periods to avoid burnout.\n\n2. **Eliminate Distractions**: Identify what typically distracts you (e.g., social media, TV, phone notifications) and find ways to minimize or eliminate these distractions during your study time. Use apps that block distracting websites, set your phone to silent mode, or use noise-cancelling headphones if necessary.\n\n3. **Use Active Learning Techniques**: Engage actively with the material by summarizing it, teaching it to someone else, or applying it through practice problems or projects. This not only makes learning more enjoyable but also helps reinforce your understanding and retention of the information.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "What is the difference between a virus and bacteria? Answer in two sentences.",
+        "response": "Viruses are much smaller than bacteria and can only replicate inside host cells, while bacteria are single-celled organisms that can live independently and reproduce through cell division.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Give me one interesting fact about octopuses.",
+        "response": "Sure! Here's an interesting fact about octopuses: Octopuses have three hearts and blue blood. Their blood is not blue, but it does contain copper-based hemocyanin instead of iron-based hemoglobin, which gives it a bluish color when dissolved in the plasma.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Compose a one-line motivational quote.",
+        "response": "Believe in yourself and you shall conquer your fears.",
+        "json_bleed": false
+      },
+      {
+        "type": "open",
+        "prompt": "Explain the water cycle in three short steps.",
+        "response": "The water cycle, also known as the hydrological cycle, is a continuous process by which water circulates through the Earth's atmosphere and environment. Here are the three main steps of the water cycle:\n\n1. **Evaporation and Transpiration**: Water from oceans, rivers, lakes, and other bodies of water evaporates into the air due to heat from the sun. Plants also release water vapor into the air through a process called transpiration.\n\n2. **Condensation**: As water vapor rises and cools in the atmosphere, it condenses into tiny droplets, forming clouds. This process occurs when warm, moist air rises and cools, causing the water vapor to change back into liquid form.\n\n3. **Precipitation**: When these droplets combine and grow larger, they eventually become too heavy for the air to hold, and they fall back to the Earth as precipitation (rain, snow, sleet, or hail). The precipitation then flows over land as runoff, enters rivers and streams, and eventually returns to the oceans, completing the cycle.",
+        "json_bleed": false
+      }
+    ]
+  }
+}

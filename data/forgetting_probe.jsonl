@@ -1,0 +1,25 @@
+{"type": "mcq", "prompt": "What is the capital of Japan?\nA) Seoul  B) Tokyo  C) Beijing  D) Bangkok\nAnswer with just the letter.", "answer": "B"}
+{"type": "mcq", "prompt": "Compute 2 + 2 * 3.\nA) 8  B) 12  C) 10  D) 6\nAnswer with just the letter.", "answer": "A"}
+{"type": "mcq", "prompt": "What is the chemical symbol for gold?\nA) Gd  B) Au  C) Ag  D) Go\nAnswer with just the letter.", "answer": "B"}
+{"type": "mcq", "prompt": "Which of these is a mammal?\nA) Shark  B) Dolphin  C) Salmon  D) Octopus\nAnswer with just the letter.", "answer": "B"}
+{"type": "mcq", "prompt": "Who wrote Romeo and Juliet?\nA) Dickens  B) Shakespeare  C) Twain  D) Austen\nAnswer with just the letter.", "answer": "B"}
+{"type": "mcq", "prompt": "Which planet is closest to the Sun?\nA) Venus  B) Earth  C) Mercury  D) Mars\nAnswer with just the letter.", "answer": "C"}
+{"type": "mcq", "prompt": "What is 15% of 200?\nA) 15  B) 30  C) 20  D) 300\nAnswer with just the letter.", "answer": "B"}
+{"type": "mcq", "prompt": "What is the opposite of 'ephemeral'?\nA) fleeting  B) permanent  C) fragile  D) rapid\nAnswer with just the letter.", "answer": "B"}
+{"type": "mcq", "prompt": "Which language is primarily spoken in Brazil?\nA) Spanish  B) Portuguese  C) French  D) English\nAnswer with just the letter.", "answer": "B"}
+{"type": "mcq", "prompt": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops Lazzies?\nA) Yes  B) No  C) Cannot tell  D) Only some\nAnswer with just the letter.", "answer": "A"}
+{"type": "mcq", "prompt": "What is the largest ocean on Earth?\nA) Atlantic  B) Indian  C) Arctic  D) Pacific\nAnswer with just the letter.", "answer": "D"}
+{"type": "mcq", "prompt": "What is the square root of 144?\nA) 11  B) 12  C) 14  D) 16\nAnswer with just the letter.", "answer": "B"}
+{"type": "mcq", "prompt": "Which gas do plants primarily absorb from the air?\nA) Oxygen  B) Nitrogen  C) Carbon dioxide  D) Hydrogen\nAnswer with just the letter.", "answer": "C"}
+{"type": "mcq", "prompt": "A train travels 60 km in 45 minutes. What is its speed in km/h?\nA) 45  B) 80  C) 60  D) 90\nAnswer with just the letter.", "answer": "B"}
+{"type": "mcq", "prompt": "What is the freezing point of water in degrees Celsius?\nA) 0  B) 32  C) 100  D) -10\nAnswer with just the letter.", "answer": "A"}
+{"type": "open", "prompt": "Write a short haiku about autumn."}
+{"type": "open", "prompt": "Summarize the plot of Cinderella in one sentence."}
+{"type": "open", "prompt": "Translate 'Good morning, how are you?' into French."}
+{"type": "open", "prompt": "Explain what photosynthesis is to a 10-year-old in two sentences."}
+{"type": "open", "prompt": "Write a polite one-sentence reply declining a meeting invitation."}
+{"type": "open", "prompt": "List three tips for staying focused while studying."}
+{"type": "open", "prompt": "What is the difference between a virus and bacteria? Answer in two sentences."}
+{"type": "open", "prompt": "Give me one interesting fact about octopuses."}
+{"type": "open", "prompt": "Compose a one-line motivational quote."}
+{"type": "open", "prompt": "Explain the water cycle in three short steps."}
